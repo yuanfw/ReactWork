@@ -1,0 +1,74 @@
+@header-bgcolor: #071023;
+@font-color: #ffffff;
+@hover-color: #20A0FF;
+@line-color: #E0E6ED;
+
+.queryPeople {
+  .tips {
+    border: 1px solid @line-color;
+    height: 60px;
+    line-height: 60px;
+    span {
+      margin-left: 20px;
+      font-size: 16px;
+      color: #1F2D3D;
+      font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+      font-weight: bold;
+    }
+  }
+
+  .desc {
+    position: relative;
+    height: 320px;
+    border-bottom: 1px solid @line-color;
+    div:nth-of-type(1) {
+      height: 295px;
+      top: 12px;
+      position: absolute;
+      left: 110px;
+      right: 700px;
+      section{
+        margin-top: 80px;
+        label{
+          width: 55px;
+          height: 55px;
+          float: left;
+          background: url("../images/Group.png") no-repeat;
+        }
+        h2{
+          height: 55px;
+          line-height: 55px;
+          text-indent: 10px;
+          font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        }
+
+        span{
+          display: block;
+          clear: both;
+          width: 630px;
+          color: #979797;
+          font-size: 14px;
+          line-height: 21px;
+
+        }
+
+      }
+    }
+
+    div:nth-of-type(2) {
+      position: absolute;
+      right: 140px;
+      height: 295px;
+      width: 404px;
+      top: 12px;
+      background: url("../images/query-people-message.png") no-repeat;
+    }
+
+  }
+
+  main{
+    margin-top: 10px;
+
+  }
+
+}

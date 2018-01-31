@@ -1,0 +1,246 @@
+@header-bgcolor: #071023;
+@font-color: #ffffff;
+@hover-color: #20A0FF;
+@line-color: #E0E6ED;
+
+.pagehome {
+  header {
+    a {
+      font-size: 16px;
+      color: @font-color;
+      line-height: 14px;
+    }
+
+    height: 60px;
+    background-color: @header-bgcolor;
+    color: @font-color;
+    margin-top: 0 !important;
+    padding-top: 0;
+    position: relative;
+    article.logo {
+      position: absolute;
+      height: 40px;
+      width: 66px;
+      background-color: transparent;
+      top: 10px;
+      left: 40px;
+      text-align: center;
+      line-height: 40px;
+      font-family: Arial-Black;
+      font-size: 28px;
+      color: @font-color;
+      letter-spacing: 0;
+      font-weight: bold;
+    }
+
+    > nav {
+      position: absolute;
+      left: 200px;
+      z-index: 1000;
+      > ul:nth-of-type(1) {
+        height: 60px;
+        > li {
+          width: 120px;
+          line-height: 60px;
+          text-align: center;
+          cursor: pointer;
+          float: left;
+          > i {
+            position: absolute;
+            bottom: 4px;
+            height: 4px;
+            display: block;
+            width: 120px;
+            background-color: #20A0FF;
+          }
+
+          > article {
+            display:none;
+            height: 400px;
+            position: absolute;
+            background-color: rgba(7, 16, 35, 0.9);
+            width: 1013px;
+            top: 60px;
+            left: -200px;
+            > nav.nav-left {
+              width: 220px;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              > ul {
+                border-right: 1px solid #343C4D;
+                position: absolute;
+                //height: 360px;
+                top: 20px;
+                width: 100%;
+                > li {
+                  height: 40px;
+                  width: 180px;
+                  line-height: 40px;
+                  position: relative;
+                  left: 40px;
+                  i {
+                    width: 26px;
+                    height: 26px;
+                    background: url("../images/right-arrow.png") no-repeat;
+                    display: inline-block;
+                    position: absolute;
+                    top: 7px;
+                    right: 10px;
+                  }
+
+                  > nav {
+                    display: none;
+                    position: absolute;
+                    left: 180px;
+                    top: 0;
+                    text-align: left;
+                    //border: 1px solid;
+                    width: 1200px;
+                    > ul {
+                      width: 100%;
+                      > li {
+                        padding-left: 20px;
+                        width: 280px;
+                        height: 70px;
+                        float: left;
+                        margin-left: 20px;
+                        position: relative;
+                        a {
+                          font-size: 16px;
+                          width: 100%;
+                          height: 100%;
+                          display: inline-block;
+                        }
+                        p {
+                          display: inline-block;
+                          font-size: 14px;
+                          height: 13px;
+                          width: 100%;
+                          position: absolute;
+                          top: 23px;
+                          left: 20px;
+                          color: #9B9B9B;
+                        }
+
+                      }
+
+                      > li:hover {
+                        background-color: @hover-color;
+                        transition: background-color .8s;
+                        > p {
+                          color: @font-color;
+                        }
+                      }
+
+                    }
+                  }
+                }
+
+                > li:hover {
+                  background-color: @hover-color;
+                  transition: background-color .8s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    article.user-message {
+      position: absolute;
+      right: 40px;
+      height: 100%;
+      color: @font-color;
+      cursor: pointer;
+      label {
+        margin-top: 19px;
+        width: 22px;
+        height: 22px;
+        background: url("../images/people.png") no-repeat;
+        float: left;
+      }
+      span {
+        margin-top: 20px;
+        height: 14px;
+        font-size: 13px;
+        color: @font-color;
+        float: left;
+        margin-left: 5px;
+      }
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  p.showtips {
+    height: 40px;
+    border-bottom: 1px solid @line-color;
+    color: #475669;
+    line-height: 40px;
+    font-weight: bold;
+    span {
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    span.home {
+      cursor: pointer;
+      margin-left: 7px;
+      label.home-icon {
+        float: left;
+        top: 11px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 13px;
+        background: url("../images/home.png") no-repeat;
+      }
+    }
+
+    i {
+      width: 5px;
+      height: 11px;
+      display: inline-block;
+      margin-left: 11px;
+      margin-right: 11px;
+      color: #C0CCDA;
+    }
+  }
+
+  .nowpage {
+    color: #99A9BF
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

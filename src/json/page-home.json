@@ -1,0 +1,249 @@
+{
+  "code": "200",
+  "msg": "成功",
+  "output": [
+    {
+      "id":"ecifid",
+      "name": "ECIF",
+      "path": "",
+      "children": [
+        {
+          "id":"ecifidsjsb",
+          "name": "主数据识别",
+          "path": "",
+          "children": [
+            {
+              "id":"ecifidsjsbryuanshibe",
+              "name": "人员识别",
+              "path": "/pagehome/ecif/queryPeople",
+              "desc":"test"
+            },
+            {
+              "id":"ecifidsjsbryuanshibejigou",
+              "name": "机构识别",
+              "path": "/pagehome/ecif/queryOrg",
+              "desc":"test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"ecifguanli",
+      "name": "ECIF管理",
+      "path": "",
+      "children": [
+        {
+          "id":"ecifguanlizhuguanli",
+          "name": "主数据管理",
+          "path": "",
+          "children": [
+            {
+              "id":"ecifguanlizhuguanlirenyuanguanli",
+              "name": "人员管理",
+              "path": "/pagehome/ecifManage/managePeople",
+              "desc":"test"
+            },
+            {
+              "id":"ecifguanlizhuguanlirenjigouguanli",
+              "name": "机构管理",
+              "path": "/pagehome/ecifManage/manageOrg",
+              "desc":"test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"liyufuwu",
+      "name": "领域服务",
+      "path": "",
+      "children": [
+        {
+          "id":"liyufuwuyibao",
+          "name": "医保",
+          "path": "",
+          "children": [
+            {
+              "id":"liyufuwuyibaorea",
+              "name": "人员信息",
+              "path": "/pagehome/healthIns/peopleMes",
+              "desc":"test"
+            },
+            {
+              "id":"liyufuwuyibaorgea",
+              "name": "机构信息",
+              "path": "/pagehome/healthIns/orgMes",
+              "desc":"test"
+            },
+            {
+              "id":"liyufuwuyijizzzbaorgea",
+              "name": "就诊信息",
+              "path": "/pagehome/healthIns/attendanceMes",
+              "desc":"test"
+            },
+            {
+              "id":"liyufuwuyijizzzbasssorgea",
+              "name": "处方信息",
+              "path": "/pagehome/healthIns/prescriptionMes",
+              "desc":"test"
+            },
+            {
+              "id":"chufangguli",
+              "name": "单据信息",
+              "path": "/pagehome/healthIns/orderMes",
+              "desc":"test"
+            },
+            {
+              "id":"chufanggulsanmui",
+              "name": "三目信息",
+              "path": "/pagehome/healthIns/threeEyeMes",
+              "desc":"test"
+            }
+          ]
+        },
+        {
+          "id":"shangbao",
+          "name": "商保",
+          "path": "",
+          "children": [
+            {
+              "id":"shangbaorenyuanxinxi",
+              "name": "人员信息",
+              "path": "/pagehome/commercialIns/managePeople",
+              "desc":"test"
+            },
+            {
+              "id":"shangbaojigouguanli",
+              "name": "机构管理",
+              "path": "/pagehome/commercialIns/manageOrg",
+              "desc":"test"
+            },
+            {
+              "id":"shangbaolipeixinxi",
+              "name": "理赔信息",
+              "path": "/pagehome/commercialIns/settleClaimsMes",
+              "desc":"test"
+            },
+            {
+              "id":"shangbaobaoquanxinxi",
+              "name": "保全信息",
+              "path": "/pagehome/commercialIns/protectMes",
+              "desc":"test"
+            },
+            {
+              "id":"shangbaobaodan",
+              "name": "保单信息",
+              "path": "/pagehome/commercialIns/guaranteeMes",
+              "desc":"test"
+            }
+          ]
+        },
+        {
+          "id":"quwei",
+          "name": "区卫",
+          "path": "",
+          "children": [
+            {
+              "id":"quweihuanzhexinxi",
+              "name": "患者信息",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"binganshouye",
+              "name": "病案首页",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"quweiyiuzeng",
+              "name": "就诊自信",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"quweijiacha",
+              "name": "检查检验",
+              "path": "/",
+              "desc":"test"
+            }
+          ]
+        },
+        {
+          "id":"HIS",
+          "name": "HIS",
+          "path": "",
+          "children": [
+            {
+              "id":"HIShuanzhe",
+              "name": "患者信息",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"HISyishixinxi",
+              "name": "医师信息",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"HISbinanshouye",
+              "name": "病案首页",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"HISdanjuxinxi",
+              "name": "单据信息",
+              "path": "/",
+              "desc":"test"
+            }
+          ]
+        },{
+          "id":"kualingyu",
+          "name":"跨领域",
+          "path":""
+        }
+      ]
+    },
+    {
+      "id":"jichuxinxi",
+      "name": "基础管理",
+      "path": "",
+      "children": [
+        {
+          "id":"jichuxinxixixiguanli",
+          "name": "系统管理",
+          "path": "",
+          "children": [
+            {
+              "id":"yonghuxinxi",
+              "name": "用户管理",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"jichuxinxiquanxian",
+              "name": "权限管理",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"jichuxinxicaidanguanli",
+              "name": "菜单管理",
+              "path": "/",
+              "desc":"test"
+            },
+            {
+              "id":"jichuxinxishujuzidian",
+              "name": "数据字典",
+              "path": "/",
+              "desc":"test"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
